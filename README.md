@@ -46,7 +46,7 @@ You can also create applications that enable your users to control these devices
 
 A thing, in the context of the Internet of things (IoT), is an entity or physical object that has a unique identifier, an embedded system and the ability to transfer data over a network.
 
-*What is AWS IoT Certificate?
+* What is AWS IoT Certificate?
 
 A device must have a certificate to authenticate with AWS_IoT. X.509 certificates are used to authenticate the device,This certificate represents that the particular thing belongs to your  AWS Account. This certificate will help AWS to authenticate while your device trying to communicate with it.
 
@@ -62,7 +62,7 @@ PEM
 
 PEM: (Privacy-enhanced Electronic Mail) Simply a US-ASCII by base64 encoded DER certificate, certificate request, or PKCS#7, enclosed between typical PEM delimiters. ie “—–BEGIN CERTIFICATE—–” and “—–END CERTIFICATE—–“. PEM is an abbreviation for Privacy Enhanced Mail (RFC 1421 – RFC 1424), an early standard for securing electronic mail (IRTF, IETF). PEM never has been widely adopted as Internet Mail Standard but has become a staple standard in x509 pki (also called pkix)
 
-*What is the policy?
+* What is the policy?
 
 AWS_IoTpolicies are used to authorize your device to perform AWS_IoT operations, such as subscribing or publishing to MQTT topics. Your device presents its certificate when sending messages to AWS IoT. To allow your device to perform AWS IoT operations, you must create an AWS IoT policy and attach it to your device certificate.
 
