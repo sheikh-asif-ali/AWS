@@ -3,6 +3,7 @@ Pushing Sensor data to cloud
 1. Introduction:
 2. Requirements:
 3. Steps involved in this Tutorial:
+
     3.1 Creating thing, certificate and attaching a policy to the certificate
     3.2 Installing Required SDKs, and Libraries. such as “AWS IoT Python SDK” & Paho-MQTT library
         3.2.1 Installing “AWS IoT Python SDK”
